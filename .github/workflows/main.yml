@@ -3,8 +3,7 @@ name: Publication Article Bi-hebdomadaire
 on:
   schedule:
     # Exécution 2 fois par semaine : mardi et vendredi à 7h00 UTC (8h00 heure de Paris en hiver)
-    - cron: '0 8 * * 2'  # Mardi
-    - cron: '0 8 * * 5'  # Vendredi
+    - cron: '0 7 * * 2'  # Mardi
   
   # Permet aussi de lancer manuellement depuis l'interface GitHub
   workflow_dispatch:
